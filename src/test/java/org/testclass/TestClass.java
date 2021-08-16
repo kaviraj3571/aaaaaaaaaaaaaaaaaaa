@@ -19,7 +19,7 @@ public class TestClass  {
 	WebDriver driver;
 	@Given("User on the login page")
 	public void user_on_the_login_page() {
-		
+		System.out.println("sdfg");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
